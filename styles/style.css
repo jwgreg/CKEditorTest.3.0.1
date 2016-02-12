@@ -1,0 +1,19 @@
+
+#contactsTable {
+	width: 100%;
+}
+#contactsTable th {
+	font-weight: bold;
+	text-align: center;
+}
+#contactsTable td {
+	border: 1px solid black;
+	font-size: 12px;
+	height: 20px;
+	line-height: 1;
+	padding: 0 5px;
+	width: 150px;
+}
+.contactsHolder .addRowBtn {
+	border: 1px oslid black;
+}
