@@ -4,7 +4,6 @@ CKEDITOR.plugins.add( 'hrccontact', {
 	icons: 'hrccontact',
 	// The plugin initialization logic goes inside this method.
 	init: function( editor ) {
-        
 		// Define an editor command that opens our dialog window.
 		var pluginDirectory = this.path;
 		var rootDirectory = document.location.pathname;
@@ -73,7 +72,7 @@ CKEDITOR.plugins.add( 'hrccontact', {
 });
 
 function isFakeContactElement(element){
-    return element.hasClass('cke_hrc_contact');
+    return element && element.hasClass('cke_hrc_contact');
 }
 
 function createFakeParserElementForContact( editor, realElement, className, realElementType, isResizable ) {

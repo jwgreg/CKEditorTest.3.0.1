@@ -20,6 +20,12 @@ CKEDITOR.editorConfig = function( config ) {
     // Set up to allow all content types
 
     config.allowedContent = {
+        'hrc-contact':
+        {
+            attributes: true,
+            styles: true,
+            classes: true
+        },
         $1: {
             // Use the ability to specify elements as an object.
             elements: CKEDITOR.dtd,
