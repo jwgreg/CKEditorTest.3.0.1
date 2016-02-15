@@ -124,7 +124,7 @@ CKEDITOR.plugins.add('hrcwidgetbootstrap', {
 
             button: showButtons ? 'Add HRC four column box' : undefined,
 
-            template: '<div class="row three-col">' +
+            template: '<div class="row four-col">' +
                 '<div class="col-md-3 col-xs-12 col-1"><p>Text goes here</p></div>' +
                 '<div class="col-md-3 col-xs-12 col-2"><p>Text goes here</p></div>' +
                 '<div class="col-md-3 col-xs-12 col-3"><p>Text goes here</p></div>' +
@@ -153,7 +153,7 @@ CKEDITOR.plugins.add('hrcwidgetbootstrap', {
             allowedContent: allowedFull,
 
             upcast: function(element) {
-                return element.name == 'div' && element.hasClass('three-col');
+                return element.name == 'div' && element.hasClass('four-col');
             }
 
         });

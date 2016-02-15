@@ -1,0 +1,111 @@
+.item {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.item:not(:last-of-type) {
+    border-bottom: 1px solid black;
+}
+.itemMain {
+    width: 250px;
+    font-weight: bold;
+    display: inline-block;
+}
+.itemData {
+    width: 250px;
+    text-indent: 50px;
+    display: inline-block;
+}
+
+th {
+    color: #FFF;
+    background-color: #389;
+    font: bold 16px san-serif;
+   border-color: #222; 
+    padding: 5px;
+}
+
+input[type=text].placeholder {
+  background-color:#F6F6F6;
+  color: #999;  
+  font-style: italic;
+   font-weight: normal; 
+}
+
+input[type=text] {
+  background-color:#FFF;
+    padding: 5px;
+    color: #389;  
+   font-weight: bold; 
+    border:none;
+}
+
+#contactsTable {
+	width: 100%;
+	table-layout: fixed;
+	white-space: nowrap;
+}
+#contactsTable th {
+	font-weight: bold;
+	text-align: center;
+}
+#contactsTable td {
+	border: 1px solid black;
+	font-size: 12px;
+	height: 20px;
+	line-height: 1;
+	padding: 0 5px;
+}
+.contactsHolder .addRowBtn {
+	border: 1px solid black;
+}
+
+.entrycell input {
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+
+.btnCol {
+	width: 4% !important;
+    border: none !important;
+}
+
+.btnCol i {
+    font-size: 14pt;
+}
+
+.btnCol i:hover {
+    cursor: pointer;    
+}
+
+.nameCol {
+	width: 25% !important;
+	text-align: left !important;
+	padding: 0 auto !important;
+}
+
+.titleCol {
+	width: 31% !important;
+	text-align: left !important;
+}
+
+.emailCol {
+	width: 31% !important;
+	text-align: left !important;
+}
+
+.phoneCol {
+	width: 15% !important;
+	text-align: left !important;
+}
+
+.cke_hrc_contact
+{
+    background-color: yellow; 
+    border-radius: 5px;
+    border: 1px solid maroon; 
+    padding-left: 10px;
+}
+
+
+

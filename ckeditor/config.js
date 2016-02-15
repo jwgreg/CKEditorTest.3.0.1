@@ -30,14 +30,14 @@ CKEDITOR.editorConfig = function( config ) {
     };
     
     // Add extra plugins here
-    config.extraPlugins = 'widget,hrcwidgetbootstrap';
+    config.extraPlugins = 'widget,hrcwidgetbootstrap,hrccontact';
 
     // Setup the custom toolbar
     config.toolbar = [
     	{
     		name: 'document',
             items: ['Source', '-','Bold', '-', 'NumberedList', 'BulletedList', 'Table', '-', 'Link', 'Unlink', 'Anchor', '-', 'HrcwidgetbootstrapLeftCol', 
-                    'HrcwidgetbootstrapRightCol', 'HrcwidgetbootstrapTwoCol', 'HrcwidgetbootstrapThreeCol', 'HrcwidgetbootstrapFourCol','HrcwidgetbootstrapPanel']  
+                    'HrcwidgetbootstrapRightCol', 'HrcwidgetbootstrapTwoCol', 'HrcwidgetbootstrapThreeCol', 'HrcwidgetbootstrapFourCol','HrcwidgetbootstrapPanel', '-', 'Hrccontact']  
         }, { 
             name: 'styles',     
             items: ['Styles', 'Format', 'Font', 'FontSize'] 
