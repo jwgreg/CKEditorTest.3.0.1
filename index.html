@@ -7,14 +7,17 @@
     <meta rel="viewport" content="width=device-width, initial-scale=1" />
     <script type="text/javascript" src="ckeditor/ckeditor.js"></script>
     <script src="scripts/jquery-1.11.3.min.js"></script>
-    <script>CKEDITOR.dtd.$removeEmpty['span'] = false;</script>
+    <script>
+    CKEDITOR.dtd.$removeEmpty['span'] = false;
+    </script>
 </head>
 
 <body>
-	<form>
-		<h1>CKEditor Test 3.0.1</h1>
-		<textarea name="editor1" id="editor1" cols="10" rows="80">
-            <div class="panel panel-default">
+    <form>
+        <h1>CKEditor Test 3.0.1</h1>
+        <textarea name="editor1" id="editor1" cols="10" rows="80">
+            <!--        
+			<div class="panel panel-default">
                 <div class="panel-heading">
                     <p>Enter Title Here</p>
                 </div>
@@ -24,15 +27,16 @@
                 </div>
             </div>
             <hrc-contact email="dd" name="Chris" phone="oin" title="ildn" url="odin"></hrc-contact>
-		</textarea>
-		<button onclick="saveThis();">Save</button>
-		<button onclick="copyHtml();">Copy to Clipboard</button>
-		<script>
-			CKEDITOR.replace('editor1', {
-				customConfig: 'config.js'
-			});
-		</script>
-	</form>
+ 			-->
+        </textarea>
+        <button onclick="saveThis();">Save</button>
+        <button onclick="copyHtml();">Copy to Clipboard</button>
+        <script>
+        CKEDITOR.replace('editor1', {
+            customConfig: 'config.js'
+        });
+        </script>
+    </form>
 </body>
 
 </html>
