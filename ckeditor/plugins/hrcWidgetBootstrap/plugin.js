@@ -3,7 +3,9 @@ CKEDITOR.plugins.add('hrcwidgetbootstrap', {
     icons: 'hrcwidgetbootstrapLeftCol,hrcwidgetbootstrapRightCol,hrcwidgetbootstrapTwoCol,hrcwidgetbootstrapThreeCol,hrcwidgetbootstrapFourCol,hrcwidgetbootstrapThreeColStack,hrcwidgetbootstrapPanel',
 
     init: function(editor) {
-        // Configurable Settings
+        // Configurable Settings 
+        
+        // Setting up the Advanced Content Filter for types allowed inside of our plugin
         var allowedFull = editor.config.widgetbootstrap_allowedFull != undefined ? editor.config.widgetbootstrap_allowedFull :
             'p a div span h1 h2 h3 h4 h5 h6 hrc-contact section article iframe object embed strong b i em cite pre blockquote small sub sup code ul ol li dl dt dd table thead tbody th tr td img caption mediawrapper; hrc-contact[*]; abbr[title]; input[*](*); div(*); br[href,src,target,width,height,colspan,span,alt,name,title,class,id,data-options]{text-align,float,margin}(*);'
 
