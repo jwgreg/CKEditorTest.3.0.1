@@ -7,7 +7,7 @@ CKEDITOR.plugins.add('hrcwidgetbootstrap', {
         
         // Setting up the Advanced Content Filter for types allowed inside of our plugin
         var allowedFull = editor.config.widgetbootstrap_allowedFull != undefined ? editor.config.widgetbootstrap_allowedFull :
-            'p a div span h1 h2 h3 h4 h5 h6 hrc-contact section article iframe object embed strong b i em cite pre blockquote small sub sup code ul ol li dl dt dd table thead tbody th tr td img caption mediawrapper; hrc-contact[*]; abbr[title]; input[*](*); div(*); br[href,src,target,width,height,colspan,span,alt,name,title,class,id,data-options]{text-align,float,margin}(*);'
+            'p a div[*](*); span h1 h2 h3 h4 h5 h6 hrc-contact section article iframe object embed strong b i em cite pre blockquote small sub sup code ul ol li dl dt dd table thead tbody th tr td img caption mediawrapper; hrc-contact[*]; abbr[title]; input[*](*); br[href,src,target,width,height,colspan,span,alt,name,title,class,id,data-options]{text-align,float,margin}(*);'
 
         var showButtons = editor.config.widgetbootstrapShowButtons != undefined ? editor.config.widgetbootstrapShowButtons : true;
 
@@ -19,7 +19,7 @@ CKEDITOR.plugins.add('hrcwidgetbootstrap', {
              '<div class="row two-col-left">' +
                  '<div class="col-md-3 col-sidebar">Navigation goes here</div>' +
                  '<div class="col-md-9 col-main"><p><h2>Title Goes Here</h2></p></div>' +
-             '</div>',
+             '</div><div>&nbsp;</div>',
             editables: {
             	col1: {
             		selector: '.col-sidebar',
@@ -47,7 +47,7 @@ CKEDITOR.plugins.add('hrcwidgetbootstrap', {
                 '<div class="row two-col-right">' +
                     '<div class="col-md-9 col-main"<h2>Text goes here</h2></div>' +
                     '<div class="col-md-3 col-sidebar"><p>Navigation goes here</p></div>' +
-                '</div>',
+                '</div><div>&nbsp;</div>',
             editables: {
                 col1: {
                     selector: '.col-sidebar',
@@ -72,7 +72,8 @@ CKEDITOR.plugins.add('hrcwidgetbootstrap', {
             template: '<div class="row two-col">' +
                 '<div class="col-md-6 col-xs-12 col-1"><h1>Text goes here</h1></div>' +
                 '<div class="col-md-6 col-xs-12 col-2"><h1>Text goes here</h1></div>' +
-                '</div>',
+                '</div>' +
+                '<div class="extraspace">T</div>',
             editables: {
                 col1: {
                     selector: '.col-1',
@@ -97,7 +98,7 @@ CKEDITOR.plugins.add('hrcwidgetbootstrap', {
                 '<div class="col-md-4 col-xs-12 col-1"><p>Text goes here</p></div>' +
                 '<div class="col-md-4 col-xs-12 col-2"><p>Text goes here</p></div>' +
                 '<div class="col-md-4 col-xs-12 col-3"><p>Text goes here</p></div>' +
-                '</div>',
+                '</div><div>&nbsp;</div>',
 
             editables: {
                 col1: {
@@ -131,7 +132,7 @@ CKEDITOR.plugins.add('hrcwidgetbootstrap', {
                 '<div class="col-md-3 col-xs-12 col-2"><p>Text goes here</p></div>' +
                 '<div class="col-md-3 col-xs-12 col-3"><p>Text goes here</p></div>' +
                 '<div class="col-md-3 col-xs-12 col-4"><p>Text goes here</p></div>' +
-                '</div>',
+                '</div><div>&nbsp;</div>',
 
             editables: {
                 col1: {
@@ -166,7 +167,7 @@ CKEDITOR.plugins.add('hrcwidgetbootstrap', {
              '<div class="panel panel-default">' +
                  '<div class="panel-heading">Enter Title Here</div>' +
                  '<div class="panel-body">Content Goes Here</div>' +
-             '</div>',
+             '</div><div>&nbsp;</div>',
             editables: {
             	col1: {
             		selector: '.panel-heading',

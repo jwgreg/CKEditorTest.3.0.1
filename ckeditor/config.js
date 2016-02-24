@@ -15,6 +15,10 @@ CKEDITOR.editorConfig = function( config ) {
 
 
     // Set options here
+    // Prevent paragraph tags from being added to modified text.
+    config.enterMode = CKEDITOR.ENTER_BR;
+    config.shiftenterMode = CKEDITOR.ENTER_P;
+    config.autoParagraph = false;
 
 
     // Set up to allow all content types
@@ -34,6 +38,7 @@ CKEDITOR.editorConfig = function( config ) {
             classes: true
         }
     };
+    
     
     // Add extra plugins here
     config.extraPlugins = 'widget,hrcwidgetbootstrap,hrccontact,abbr,hrciconlink';

@@ -8,56 +8,56 @@
         },
         {
             "title": "Acquistion Corps",
-            "insigniaClass": "acq_Corps_Insignia",
-            "plaqueClass": "acq_Corps_Plaque",
+            "insigniaClass": "acq_corps_insignia",
+            "plaqueClass": "acq_corps_plaque",
             "logoClass": ""
         },
         {
             "title": "Army Dental Corps",
-            "insigniaClass": "amd_Dental_Corps_Insignia",
-            "plaqueClass": "amd_Dental_Corps_Plaque",
-            "logoClass": "amd_Med_Corps_Plaque"
+            "insigniaClass": "amd_dental_corps_insignia",
+            "plaqueClass": "amd_dental_corps_plaque",
+            "logoClass": ""
         },
         {
             "title": "Army Medical Corps",
-            "insigniaClass": "amd_Med_Corps_Insignia",
-            "plaqueClass": "amd_Med_Service_Corps_Plaque",
+            "insigniaClass": "amd_med_corps_insignia",
+            "plaqueClass": "amd_med_service_corps_plaque",
             "logoClass": ""
         },
         {
             "title": "Army Medical Service Corps",
-            "insigniaClass": "amd_Med_Service_Corps_Insignia",
+            "insigniaClass": "amd_med_service_corps_insignia",
             "plaqueClass": "",
             "logoClass": ""
         },
         {
             "title": "Army Medical Specialist Corps",
-            "insigniaClass": "amd_Med_Specialiast_Corps_Insignia",
-            "plaqueClass": "amd_Med_Specialist_Corps_Plaque",
+            "insigniaClass": "amd_med_specialiast_corps_insignia",
+            "plaqueClass": "amd_med_specialist_corps_plaque",
             "logoClass": ""
         },
         {
             "title": "Army Nurse Corps",
-            "insigniaClass": "amd_Nurse_Corps_Insignia",
-            "plaqueClass": "amd_Nurse_Corps_Plaque",
+            "insigniaClass": "amd_nurse_corps_insignia",
+            "plaqueClass": "amd_nurse_corps_plaque",
             "logoClass": ""
         },
         {
             "title": "Army Veterinary Corps",
-            "insigniaClass": "amd_Vet_Corps_Insignia",
-            "plaqueClass": "amd_Vet_Corps_Plaque",
+            "insigniaClass": "amd_vet_corps_insignia",
+            "plaqueClass": "amd_vet_corps_plaque",
             "logoClass": ""
         },
         {
             "title": "Armor",
-            "insigniaClass": "armor_Insignia",
-            "plaqueClass": "armor_Plaque",
+            "insigniaClass": "armor_insignia",
+            "plaqueClass": "armor_plaque",
             "logoClass": ""
         },
         {
             "title": "Aviation",
-            "insigniaClass": "aviation_Insignia",
-            "plaqueClass": "aviation_Plaque",
+            "insigniaClass": "aviation_insignia",
+            "plaqueClass": "aviation_plaque",
             "logoClass": ""
         }
     ]

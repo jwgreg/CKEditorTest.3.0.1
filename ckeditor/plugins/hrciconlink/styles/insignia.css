@@ -1,0 +1,252 @@
+﻿/*-- image preview --*/
+.imgElement{
+    width: 32px !important; 
+    height: 32px !important;
+    //border: solid black thin !important;
+    background-image: url('../images/InsigniaSpriteBase.png') !important;
+}
+
+.hrciconlink {
+  display: inline !important;
+  float: left !important;
+}
+.hrciconlink .linkref {
+  display: inline !important;
+}
+
+
+.empty {
+  //width: 40px;
+  background-position: 0 0;
+}
+
+// Insignias
+.acq_corps_insignia {
+  background-position: -40px 0 !important;
+}
+.ag_insignia {
+  background-position: -80px 0 !important;
+}
+.air_defense_artillery_insignia {
+  background-position: -120px 0 !important;
+}
+.amd_dental_corps_insignia {
+  background-position: -160px 0 !important;
+}
+.amd_med_corps_insignia {
+  background-position: -200px 0 !important;
+}
+.amd_med_service_corps_insignia {
+  background-position: -240px 0 !important;
+}
+.amd_med_specialist_corps_insignia {
+  background-position: -280px 0 !important;
+}
+.amd_nurse_corps_insignia {
+  background-position: -320px 0 !important;
+}
+.amd_vet_corps_insignia {
+  background-position: -360px 0 !important;
+}
+.armor_insignia {
+  background-position: -400px 0 !important;
+}
+.aviation_insignia {
+  background-position: -440px 0 !important;
+}
+.chaplain_insignia {
+  background-position: -480px 0 !important;
+}
+.chemical_corps_insignia {
+  background-position: -520px 0 !important;
+}
+.civil_Affairs_insignia {
+  background-position: -560px 0 !important;
+}
+.elec_Warfare_insignia {
+  background-position: -600px 0 !important;
+}
+.engineer_insignia {
+  background-position: -640px 0 !important;
+}
+.field_artillery_insignia {
+  background-position: -680px 0 !important;
+}
+.finance_corps_insignia {
+  background-position: -720px 0 !important;
+}
+.ig_insignia {
+  background-position: -760px 0 !important;
+}
+.infantry_insignia {
+  background-position: -800px 0 !important;
+}
+.jag_insignia {
+  background-position: -840px 0 !important;
+}
+.logistics_insignia {
+  background-position: -880px 0 !important;
+}
+.mi_branch_insignia {
+  background-position: -920px 0 !important;
+}
+.mp_insignia {
+  background-position: -960px 0 !important;
+}
+.ordnance_branch_insignia {
+  background-position: -1000px 0 !important;
+}
+.pao_insignia {
+  background-position: -1040px 0 !important;
+}
+.psych_ops_branch_insignia {
+  background-position: -1080px 0 !important;
+}
+.quartermaster_corps_insignia {
+  background-position: -1120px 0 !important;
+}
+.signal_corps_insignia {
+  background-position: -1160px 0 !important;
+}
+.special_forces_insignia {
+  background-position: -1200px 0 !important;
+}
+.transportation_corps_insignia {
+  background-position: -1240px 0 !important;
+}
+
+// Plaques
+.acq_corps_plaque {
+  background-position: 0 -40px !important;
+}
+.ag_plaque {
+  background-position: -40px -40px !important;
+}
+.air_defense_artillery_plaque {
+  background-position: -80px -40px !important;
+}
+.amd_dental_corps_plaque {
+  background-position: -120px -40px !important;
+}
+.amd_med_corps_plaque {
+  background-position: -160px -40px !important;
+}
+.amd_med_service_corps_plaque {
+  background-position: -200px -40px !important;
+}
+.amd_med_specialist_corps_plaque {
+  background-position: -240px 40px !important;
+}
+.amd_nurse_corps_plaque {
+  background-position: -280px 40px !important;
+}
+.amd_vet_corps_plaque {
+  background-position: -320px 40px !important;
+}
+.armor_plaque {
+  background-position: -360px 40px !important;
+}
+.aviation_plaque {
+  background-position: -400px 40px !important;
+}
+.chaplain_plaque {
+  background-position: -440px 40px !important;
+}
+.chemical_corps_plaque {
+  background-position: -480px 40px !important;
+}
+.civil_affairs_plaque {
+  background-position: -520px 40px !important;
+}
+.elec_warfare_plaque {
+  background-position: -560px 40px !important;
+}
+.engineer_plaque {
+  background-position: -600px 40px !important;
+}
+.field_artillery_plaque {
+  background-position: -640px 40px !important;
+}
+.finance_corps_plaque {
+  background-position: -680px 40px !important;
+}
+.ig_plaque {
+  background-position: -720px 40px !important;
+}
+.infantry_plaque {
+  background-position: -760px 40px !important;
+}
+.jag_plaque {
+  background-position: -800px 40px !important;
+}
+.logistics_plaque {
+  background-position: -840px 40px !important;
+}
+.mi_branch_plaque {
+  background-position: -880px 40px !important;
+}
+.mp_plaque {
+  background-position: -920px 40px !important;
+}
+.ordnance_branch_plaque {
+  background-position: -960px 40px !important;
+}
+.pao_plaque {
+  background-position: -1000px 40px !important;
+}
+.psych_ops_branch_plaque {
+  background-position: -1040px 40px !important;
+}
+.quartermaster_corps_plaque {
+  background-position: -1080px 40px !important;
+}
+.signal_corps_plaque {
+  background-position: -1120px 40px !important;
+}
+.special_forces_plaque {
+  background-position: -1160px 40px !important;
+}
+.transportation_corps_plaque {
+  background-position: -1200px 40px !important;
+}
+
+// Logos
+.ag_logo {
+  background-position: 0 80px !important;
+}
+.aces_logo {
+  background-position: -40px 80px !important;
+}
+.epfmd_logo {
+  background-position: -80px 80px !important;
+}
+.fa30_logo {
+  background-position: -120px 80px !important;
+}
+.fa57_logo {
+  background-position: -160px 80px !important;
+}
+.fao_logo {
+  background-position: -200px 80px !important;
+}
+.force_sustain_logo {
+  background-position: -240px 80px !important;
+}
+.hrc_logo {
+  background-position: -280px 80px !important;
+}
+.osed_logo {
+  background-position: -320px 80px !important;
+}
+.persinsd_logo {
+  background-position: -360px 80px !important;
+}
+.reserve_logo {
+  background-position: -400px 80px !important;
+}
+.sfltap_logo {
+  background-position: -440px 80px !important;
+}
+.space_ops_logo {
+  background-position: -480px 80px !important;
+}
